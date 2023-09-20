@@ -1,0 +1,116 @@
+$bg-color: blue;
+$main-colour:#aaaaaa;
+$primary-colour:#E5E4E2;
+$paragraph-size: 14pt;
+
+body {
+    margin: 0px;
+  background-color: $primary-colour;
+}
+
+.container {
+    
+    background-color: $primary-colour ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $paragraph-size;
+
+    display: grid;
+
+
+}
+
+#header {
+    
+    background-color: $main-colour ;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+    text-align: center;
+
+    img{
+
+        max-width: 100%;
+        max-height: 100%;
+        float: left;
+        clear: right;
+        margin-left: 10px;
+        
+    }
+}
+
+.main {
+    
+    background-color: #B2BEB5 ;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+    
+}
+
+#footer {
+    
+    background-color: $main-colour ;
+    margin: 10px;
+    margin-top: 500px;
+    height: 60px;
+    clear: both;
+    border-radius: 5px;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+
+    ul{
+    
+        padding: 5px;
+        list-style-type: none;
+        text-align: center;
+        margin: 10px;
+        border-radius: 5px;
+        
+    }
+
+    li{
+    
+        display: inline;
+        
+    }
+
+    a {
+    
+        text-decoration: none;
+        font-family: arial;
+        padding: .2em 1em;
+        color: #efe5d0;
+        background-color: #5c755e;
+        
+    }
+        
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: left;
+    float: right;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}

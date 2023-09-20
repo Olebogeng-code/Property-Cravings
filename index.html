@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Property Cravings</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    
+    <script type='text/javascript' src="index.js"></script>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+
+
+<body>
+
+    
+
+    <div class="container">
+        <!-------------------------Header Section--------------------------------->
+        <div id="header">
+
+            <img class="logo  fade-out" src="propertycravings.jpg" alt="cravingslogo">
+
+            <h1>Property Cravings </h1>
+
+        </div>
+        <!-------------------------Navigation section--------------------------------->
+        <div id="navbar">
+
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Season 1 luxury tours</a></li>
+                <li><a href="">Season 2 luxury tours</a></li>
+            </ul>
+
+        </div>
+        <!-------------------------sidebar sections--------------------------------->
+        <div class="sideright">
+
+            <h2>Which estate would you like us to tour in the future?</h2>
+
+            <form>
+                <label>
+                    <input type="radio" name="selection" value="Cape Town">
+                    Copperleaf Estate
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="selection" value="option2">
+                    Mooikloof Estate
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="selection" value="option3">
+                    Midstream Estate
+                </label>
+            </form>
+        </div>
+
+        <div class="sideright">
+
+            <h2>Top three tours</h2>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <b>Our most viewed tours</b>
+                            <ol>
+                                <li><a target="_blank" href="https://youtu.be/gfTJ9j5Tcb0"> Waterfall country Estate
+                                    </a> </li>
+                                <li><a target="_blank" href="https://youtu.be/vJrySKqUDpQ"> The Precinct Luxury
+                                        Apartments </a></li>
+                                <li><a target="_blank" href="https://youtu.be/T3AZWS9ZJFc"> BlackBrick</a></li>
+                            </ol>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="sideright">
+            <h2>Luxury Trends</h2>
+            <p>Learn about luxury property trends <a target="_blank" href="./luxury trends/index.html"> here</a></p>
+        </div>
+
+        <div class="sideright">
+            <h2>Quotes and testimonials</h2>
+            <p>“For a house to be successful, the objects in it must communicate with one another, respond and balance
+                one another.” <br>
+                <br>
+                Quote by Andrée Putman.
+            </p>
+        </div>
+        <!-------------------------comment section--------------------------------->
+        <div class="sideright">
+            <h2>Leave a comment</h2>
+            <form id="comment-form">
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" rows="4" required></textarea>
+
+                <button type="button" id="submit-button">Submit</button>
+            </form>
+
+        </div>
+
+
+        <div>
+            <img class="imagesidebar" src="Luxuryhome.jpg">
+        </div>
+
+        <!-------------------------contact us  section--------------------------------->
+
+        <div class="sideright">
+
+            <h2>Contact Us</h2>
+            <p>Please use the form below to get in touch with us.</p>
+
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+
+        </div>
+
+
+
+
+        <!-------------------------The Main body section--------------------------------->
+        <div class="main  fade-out">
+
+            <h2 class="fade-out">Dream Luxury House</h2>
+            <p class="dream"> Imagine waking up in a luxurious mansion, surrounded by beautiful gardens, glistening
+                pools,
+                and breathtaking views of the mountains or the ocean.
+                Imagine walking into a grand foyer with high ceilings, marble floors, and sparkling chandeliers.
+                As you walk through the halls, you see elegant furnishings, magnificent artwork, and stunning
+                architectural features.
+                The bedrooms are spacious and serene, with plush bedding, cozy fireplaces, and spa-like bathrooms.
+                You can entertain guests in your own private movie theatre, have a drink at your personal bar, or enjoy
+                a game of billiards in your own game room.
+                <br>
+                <button id="hidingBtn"> Hide button</button> <br>
+                <button id="showingBtn"> Show button</button>
+            </p>
+
+            <h3 class="fade-out">Get inspired by Property Cravings</h3>
+
+            <p class="fade-out  p1">
+                When you watch Property Cravings house tours/ you get a comprehensive view of the property which we
+                don't get from pictures.
+                You will see every detail of the home, from the architecture and layout to the high end finishes and
+                decorations. For instance,
+                in one of our video reviews ,we toured a house worth 30 MILLION RANDS/// Should it have been in
+                pictures, you would not experience the finest kitchen that any cook or foodie would die for/
+                the details of the stunning mild steel staircase that leads to the upper floors, where you find some of
+                the most incredible bathrooms ever designed. The perfect imagination of being inside the home to
+                experience it as if you are there yourself,
+                could only be felt through Property Cravings.
+            </p>
+
+            <button class="like-button" onclick="handleLike('item7')">Like</button>
+            <span class="like-count" id="like-count-item7">0</span>
+
+
+        </div>
+
+        <div class="main">
+
+            <h2 class="fade-out">Features of the channel</h2>
+            <p class="fade-out"> The channel features some of the most exquisite homes in the country,
+                and It takes you on a journey through each property, showcasing every detail and feature
+            </p>
+
+            <h3 class="fade-out">What You'll learn</h3>
+
+            <p class="fade-out">
+                As you watch this videos, you'll learn about the different styles of luxury homes, from modern to
+                traditional,
+                from beachfront to mountaintop. You'll see how the owners have personalised their homes to fit their
+                lifestyles and how you can do the same.
+                You'll learn about the latest trends in luxury home design / and how you can incorporate them into your
+                own home.
+
+            </p>
+
+            <h3 class="fade-out"> In the future</h3>
+
+            <p class="fade-out">
+                In the near future, we will be interviewing Architects and property developers about what makes their
+                Projects special
+                what inspired the design / and what it is like to live in such a luxurious space. You will get a sense
+                of the history of the home,
+                the surrounding community and the unique features that make each property truly one-of-a-kind.
+
+            </p>
+
+            <button class="like-button" onclick="handleLike('item6')">Like</button>
+            <span class="like-count" id="like-count-item6">0</span>
+
+        </div>
+
+        <div class="main">
+
+
+
+            <div class="item  like-container">
+
+                <h3>Blackbrick</h3>
+                <img class="fade-out"
+                    src="https://i.ytimg.com/vi/T3AZWS9ZJFc/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBk2aQMCBXJzNIGWCqQsWNbnOo6BQ"
+                    alt="firsttour">
+                <p>This tour opened doors for us. Click this link <a target="_blank"
+                        href="https://youtu.be/T3AZWS9ZJFc"> BlackBrick </a> and watch our first tour. </p>
+                <button class="save-button">Save for Later</button>
+                <button class="like-button" onclick="handleLike('item1')">Like</button>
+                <span class="like-count" id="like-count-item1">0</span>
+
+            </div>
+
+            <div class="item   like-container">
+
+                <h3>Steyn City Mansion</h3>
+
+                <img class="fade-out"
+                    src="https://i.ytimg.com/vi/J0odqKHSwIE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA9GwuIozEynlaX4K-YLPaGg6dwmg"
+                    alt="steyncity">
+                <p>This house has the best kitchen I have never seen before.</p>
+                <button class="save-button">Save for Later</button>
+                <button class="like-button" onclick="handleLike('item2')">Like</button>
+                <span class="like-count" id="like-count-item2">0</span>
+
+            </div>
+
+            <div class="item   like-container">
+
+                <h3 class="fade-out">Waterfall City</h3>
+
+                <img class="fade-out"
+                    src="https://i.ytimg.com/vi/gfTJ9j5Tcb0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCBVGIMMl88j8jGpVe6f7KStBm0yQ"
+                    alt="Waterfall">
+                <p>The best retirement Estate in the world</p>
+                <button class="save-button">Save for Later</button>
+                <button class="like-button" onclick="handleLike('item3')">Like</button>
+                <span class="like-count" id="like-count-item3">0</span>
+
+            </div>
+
+            <div class="item  like-container">
+
+                <h3 class="fade-out">The Precinct</h3>
+                <img src="https://i.ytimg.com/vi/vJrySKqUDpQ/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBqWo1rH0u8LOeCzxGPeoo_iRkwxg"
+                    alt="">
+                <p>Staying here, you won't need to leave the Estate. It has everything you need.</p>
+                <button class="save-button">Save for Later</button>
+                <button class="like-button" onclick="handleLike('item4')">Like</button>
+                <span class="like-count" id="like-count-item4">0</span>
+
+
+            </div>
+
+        </div>
+
+        <div class="main  like-container">
+
+            <h3 class="fade-out">A little bit about my childhood</h3>
+
+            <p class="fade-out">If you are intereted in knowing more about me and my childhood interests click this link
+                <a target="_blank" href="childhood.html"> My Childhood </a>
+            </p>
+            <br>
+            <button class="like-button" onclick="handleLike('item5')">Like</button>
+            <span class="like-count" id="like-count-item5">0</span>
+
+        </div>
+
+        <div class="main">
+
+            <h2>Menu Section</h2>
+
+            <div class="menu main">
+                <div class="menu-item">
+                    <div class="menu-section-title">Dream Places to visit for House tours</div>
+                    <div class="menu-section">
+                       
+                        <ul>
+                            <li>Cape Town</li>
+                            <li>Eastern Cape</li>
+                            <li>Durban</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-------------------------The Footer Sectionsection--------------------------------->
+            <div id="footer">
+
+                <button class="favorite styled" type="button">
+                    click here to subscribe
+                </button>
+
+                <ul>
+                    <li><a href="">About Property Cravings</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+
+
+                &copy;2023 property cravings. All Rights Reserved.
+
+
+            </div>
+        </div>
+</body>
+</head>
+
+</html>
